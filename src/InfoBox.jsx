@@ -31,10 +31,10 @@ import "./InfoBox.css"
           {info.city}
         </Typography>
         <Typography  variant="body2" sx={{ color: 'text.secondary' }} component={"span"}>
-         <div>Temperature = {info.temp}&deg;F </div>
+         <div>Temperature = {info.temp}&deg;C </div>
          <div>Hummidity = {info.humidity} </div>
-         <p>Min Temp = {info.tempMin}&deg;F  </p>
-         <p>Max Temp = {info.tempMax}&deg;F  </p>
+         <p>Min Temp = {info.tempMin}&deg;C  </p>
+         <p>Max Temp = {info.tempMax}&deg;C  </p>
          <p>The Weather Can be describe as {info.weather} and feels like {info.feelsLike}&deg;C </p>
   
         </Typography>
